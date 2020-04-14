@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+I am a big fanboy of Deep Learning and neural networks. They are very powerful and capable of doing amazing things
 
-email: agus[at]python.web.id
+email: baichingc[at]gmail[dot]com
