@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Easiest way to backprogate through LSTM(long short term memory using only numpy"
+title:  "Easiest way to backprogate through LSTM(long short term memory) using only numpy"
 date:   2020-05-06 14:32:04 +0700
 categories: [bash, linux, ubuntu]
 ---
@@ -14,51 +14,11 @@ understand backprogattion. In [cs231n](http://cs231n.github.io/) course, i learn
 I found 1st one much easier to follow. Although it will get very messy very soon if we have very large net. But neural nets as just reuse same functions over and
 over until finally apply a softmax or svm. So, if we calculate backprop for one unit, the process should be same for all other units.
 
-You can use this some alternatives;
-
-
-```bash
-$ your-bash-command && aplay /path/to/sound.wav  # can also with *.ogg file.
+```code
+00
 ```
+hshshs
 
 ```bash
-$ your-bash-command && paplay /path/to/sound.ogg  # can also with *.wav file.
-```
-
-```bash
-$ your-bash-command; spd-say "done"
-```
-
-```bash
-$ your-bash-command && notify-send "done"  # without sound
-$ your-bash-command && notify-send "Process completed" "Come back to the terminal, the task is over"
-```
-
-------------
-
-And this script below is modification of that commands above.
-
-1. Create the `notif-me.sh` file;
-
-```bash
-#!/bin/bash
-
-notify-send "Process completed" "Come back to the terminal, the task is over"
-spd-say "My lord, your process hasbeen complete."
-```
-
-2. Make it callable in `/bin`
-
-```bash
-sudo cp notif-me.sh /bin/notif-me;
-```
-
-3. Use it;
-
-```bash
-$ your-bash-command; notif-me
-
-# or
-
-$ your-bash-command && notif-me
+# "#" for comment
 ```
